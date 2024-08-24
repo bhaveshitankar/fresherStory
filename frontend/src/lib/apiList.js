@@ -1,4 +1,4 @@
-export const server = "https://main--fresherstorybe.netlify.app";
+export const server = "https://df7c93a8-43b0-434b-977b-7f5e12665f7d-prod.e1-us-cdp-2.choreoapis.dev/fresherstory/backend/v1.0";
 
 const apiList = {
   login: `${server}/auth/login`,

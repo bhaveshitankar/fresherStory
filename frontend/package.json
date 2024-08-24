@@ -10,9 +10,7 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
     "axios": "^0.21.1",
-    "caniuse-lite": "^1.0.30001651",
     "material-ui-chip-input": "^1.1.0",
-    "postcss": "^8.4.41",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-phone-input-2": "^2.13.9",
@@ -21,7 +19,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,8 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.3"
   }
 }
